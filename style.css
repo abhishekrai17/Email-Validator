@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #5e4747;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.lists {
+
+    display: flex;
+    list-style: none;
+}
+
+.lists li {
+    margin: 2px 2px;
+    padding: 4px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.container {
+    height: 100px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+
+}
+
+input[type=email] {
+    width: 400px;
+    height: 27px;
+    border-radius: 15px;
+    padding: 3px 3px;
+
+}
+
+.Response {
+
+    height: 400px;
+    width: 400px;
+    margin: auto;
+}
